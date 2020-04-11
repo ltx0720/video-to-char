@@ -10,7 +10,7 @@
 ## 注意点
 - 由于不可能显示每一个像素，可以根据尺寸来调整间隔数
 ```java
-Config.java:
+Config.java: 
 public static final int COLUMNGAP = 5;
 public static final int ROWGAP = 17;
 ```
