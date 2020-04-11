@@ -38,10 +38,7 @@ public class Main {
                     image.setRGB(i, j, rgb);
                 }
             }
-            if (page <= 20){
-                show(image, page, width, height);
-
-            }
+            show(image, page, width, height);
         }
     }
 

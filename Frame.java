@@ -39,14 +39,15 @@ public class Frame {
     }
 
     public static void replaceOne(int lineNum, int index, String s) {
-        int x = 12000;
-        int y = 999;
-        while (x > 0){
-          while (y > 0){
-              y--;
-          }
-          x--;
-        }
+        // 播放太快，耗时操作
+//        int x = 999;
+//        int y = 999;
+//        while (x > 0){
+//          while (y > 0){
+//              y--;
+//          }
+//          x--;
+//        }
 
         int start =  (Config.COLUMNS+1) * lineNum + index;
         int end = start + 1;
